@@ -1,0 +1,23 @@
+@use './variables' as *;
+
+
+#lateral-nav {
+    background-color: $accentColor;
+
+    min-height: calc(100vh - 67px);
+
+    height: 100%;
+
+
+    #img-user {
+
+        img {
+            width: 100%;
+            border-radius: 50%;
+
+        }
+    }
+
+
+
+}

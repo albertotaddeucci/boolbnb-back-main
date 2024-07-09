@@ -1,0 +1,34 @@
+
+@use './variables' as *; 
+
+.card {
+    background-color: #f8f9fa;
+    border: none; 
+}
+
+.btn-login, .btn-register {
+    background-color:#0067697b;
+    border-color: #00676939;
+    color: #4f4f4f;
+
+    &:hover{
+        background-color: #0067696d; 
+        border-color: #0067697b;
+        color: white;
+        
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

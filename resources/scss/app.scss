@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap');
+
+@import '~bootstrap/scss/bootstrap';
+
+$fa-font-path: '~fontawesome/webfonts';
+@import '~fontawesome/scss/fontawesome';
+@import '~fontawesome/scss/brands';
+@import '~fontawesome/scss/regular';
+@import '~fontawesome/scss/solid';
+
+@import './create';
+@import './show';
+@import './edit';
+@import './welcome';
+@import './index';
+@import './lateral-nav';
+@import './autoCompleteBox';
+@import './sponsor-index';
+@import './welcome-page.scss';
+@import './app.blade.scss';
+@import './login';
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+// Se necessario, puoi specificare ulteriori selettori qui

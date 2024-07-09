@@ -1,0 +1,52 @@
+@use './variables' as *;
+
+
+.bg-form {
+       color: #4f4f4f;
+
+    .form-container {
+        background-color: #00676939;
+    }
+
+
+    .obg-field {
+        color: red;
+    }
+
+
+    .service-btn {
+        border: 2px solid $accentColor;
+        padding-inline: 30px;
+        border-radius: 20px;
+
+
+
+        &:hover {
+            background-color: $accentColor;
+            color: white;
+
+        }
+
+
+    }
+
+    input:checked+.service-btn {
+        background-color: $accentColor;
+        color: white;
+        border: 2px solid $accentColor;
+
+    }
+
+    .btn-cta {
+        border: 2px solid $accentColor;
+        background-color: white;
+
+        &:hover {
+            border: 2px solid white;
+            background-color: $accentColor;
+            color: white;
+        }
+    }
+
+
+}

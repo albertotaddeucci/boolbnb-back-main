@@ -1,0 +1,33 @@
+#logo-wrapper{
+    padding:20px;
+
+    border-radius:20px;
+
+    background-color: #00676985;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#logo-welcome-home{
+    border-radius: 15px;
+}
+
+
+@media screen and (max-width:991px){
+    #card-wrapper{
+        justify-content: center !important;
+    }
+
+    #bg-home{
+        bottom:20px;
+    }
+}
+
+
+@media screen and (max-width:450px) {
+
+    #logo-wrapper{
+        justify-content: center !important;
+    }
+
+}

@@ -1,0 +1,21 @@
+@use './variables' as *;
+
+
+.bg-form {
+
+
+    #img-box {
+
+        width: 200px;
+        height: 100px;
+
+        img {
+            border-radius: 5px;
+            width: 100%;
+            height: 100%;
+
+            object-fit: cover;
+        }
+    }
+
+}

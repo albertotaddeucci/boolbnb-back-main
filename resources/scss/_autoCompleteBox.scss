@@ -1,0 +1,39 @@
+#address-box {
+    position: relative;
+
+}
+
+.auto-complete-box {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    transform: translate(0, 70px);
+
+    width: 95%;
+    height: 123px;
+    overflow-y: auto;
+
+    border-radius: 5px;
+
+    background-color: white;
+
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+
+        li {
+            color: black;
+
+            &:hover {
+                background-color: rgba(0, 0, 0, .3);
+                cursor: pointer;
+                user-select: none;
+            }
+        }
+    }
+}
+
+.hide {
+    display: none;
+}

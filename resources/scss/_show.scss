@@ -1,0 +1,121 @@
+@use './variables' as *;
+.card-img-show{
+
+   min-width: 100%;
+      object-fit: cover
+
+
+}
+
+.apart-container {
+    background-color: rgba(207, 226, 229, 0.445);
+    border-radius: 5px;
+}
+
+
+.stats:before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background-color: $accentColor;
+}
+
+.btn-cta {
+    border: 2px solid $accentColor;
+    background-color: white;
+
+    .warning {
+        border: 2px solid yellow;
+
+
+    }
+
+
+    &:hover {
+        border: 2px solid white;
+        background-color: $accentColor;
+        color: white;
+    }
+}
+
+.btn-payment {
+    background-color:#0067697b;
+    border-color: #00676939;
+    color: #4f4f4f;
+
+    &:hover{
+        background-color: #0067696d; 
+        border-color: #0067697b;
+        color: white;
+        
+    }
+
+
+
+ 
+
+}
+
+
+.cta-danger {
+    border: 2px solid red;
+    background-color: white;
+
+    &:hover {
+        border: 2px solid red;
+        background-color: white;
+        color: red;
+
+
+    }
+
+
+
+}
+
+.cta-warning {
+    border: 2px solid orange;
+    background-color: white;
+
+    &:hover {
+        border: 2px solid orange;
+        background-color: white;
+        color: orange;
+    }
+}
+.box-description {
+    color: #4f4f4f;
+
+
+}
+
+
+
+.service {
+    font-size: 0.9em;
+}
+
+.service:before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 42%;
+    width: 20px;
+    height: 2px;
+    background-color: $accentColor;
+}
+
+@media (min-width: 768px) {
+    .service {
+        font-size: 1.1em;
+    }
+}
+
+@media (min-width: 800px) {
+    .service {
+        font-size: 1.1em;
+    }
+}
